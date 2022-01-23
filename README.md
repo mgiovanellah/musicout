@@ -3,5 +3,12 @@
 </p>
 <h1 align="center">Musicout</h1
 <p align="center">Musicout is a music site from Brazil. Updated daily, it is one of the main resources for artist information and song lyrics that gives customers the opportunity to listen to their favorite artists wherever they are..</p>
-
+<p align="center">
+ <a href="#objetivo">Objetivo</a> •
+ <a href="#roadmap">Roadmap</a> • 
+ <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#contribuicao">Contribuição</a> • 
+ <a href="#licenc-a">Licença</a> • 
+ <a href="#autor">Autor</a>
+</p>
 
