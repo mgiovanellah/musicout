@@ -3,6 +3,7 @@
 </p>
 <h1 align="center">Musicout</h1
 <p align="center">Musicout is a music site from Brazil. Updated daily, it is one of the main resources for artist information and song lyrics that gives customers the opportunity to listen to their favorite artists wherever they are..</p>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/87626f06-7565-4723-844b-b49999d099c9/deploy-status)](https://app.netlify.com/sites/musicout/deploys)
 <p align="center">
  <a href="#objetivo">Objective</a> •
  <a href="#roadmap">Roadmap</a> • 
