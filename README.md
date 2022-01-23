@@ -27,25 +27,25 @@
 - [ ] Log in page
 <br>
 <h1>🎲 Running the Back End (server)</h1>
-# Clone este repositório
+# Clone this repository
 $ git clone <https://github.com/tgmarinho/musicout>
 
-# Acesse a pasta do projeto no terminal/cmd
+# Access the project folder in terminal/cmd
 $ cd musicout
 
-# Vá para a pasta server
+# Go to the server folder
 $ cd server
 
-# Instale as dependências
+# Install the dependencies
 $ npm install
 
-# Execute a aplicação em modo de desenvolvimento
+# Run the application in development mode
 $ npm run dev:server
-# O servidor inciará na porta:3333 - acesse <http://localhost:3000> 
+# The server will start on port:3000 - go to <http://localhost:3000/musicout> 
 
 <br>
 <h1>✅ Technologies used</h1>
-### 🛠 Tecnologias
+### 🛠 Technologies
 
 The following tools were used in building the project:
 
