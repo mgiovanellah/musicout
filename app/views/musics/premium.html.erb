@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=deice-width, initial-scale=1.0">
+  <meta name="description" content="Milhões de músicas e podcasts para explorar. E nem precisa de cartão de crédito.">
+  <title>Musicout</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>	
+	<header class="cabecalho">
+		<%= link_to image_tag("Musicout-5.png", class:"cabecalho-logo", :alt => "logo", :width => 100, :height => 100), "http://localhost:3000/musicsout", target: :_blank %>
+    <nav class="cabecalho-menu">
+			<ul>
+      <li><a href="http://localhost:3000/musicsout/premium" class="cabecalho-menu-item">Premium</a></li>
+      <li><a class="cabecalho-menu-item">Suporte</a></li>
+      <li><a class="cabecalho-menu-item">Baixar</a></li>
+			<a class="cabecalho-menu-item">|</a>
+      <li><a class="cabecalho-menu-item">Inscrever-se</a></li>
+      <li><a class="cabecalho-menu-item">Entrar</a></li>
+			</ul>
+    </nav>
+	</header>
+	<main class="conteudo-premium">
+		<section class="conteudo-premium-lista">
+			<div class="conteudo-premium-1">
+			<br>
+			<br>
+				<h1 class="conteudo-principal-escrito-subtitulo-premium-1">Aproveite 1 mês grátis de Premium</h1>
+				<h2 class="conteudo-principal-escrito-subtitulo-premium">Depois, pague somente R$ 19,90/mês. Cancele quando quiser.</h2>
+				<form action="https://www.youtube.com/">
+				<button type="submit" class="botao-premium">COMEÇAR</button>
+				</form>
+				</div>
+				<form action="https//www.youtube.com/">
+				<button type="submit" class="botao-premium-2">VER PLANOS</button>
+				</form>
+				<p class="legenda">		
+					<strong>O mês grátis não está disponível para usuários que já experimentaram o Premium.</strong>	
+				</p>				
+		</section>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<section class="conteudo-premium-lista-2">
+			<div class="conteudo-premium-2">
+				<h2 class="conteudo-premium-3">Por que ser Premium?</h2>
+				<%= image_tag("music.svg", class:"icones", :width => 100, :height => 300)%>
+				<%= image_tag("sem-anuncios.svg", class:"icones", :width => 100, :height => 300)%>
+				<%= image_tag("ouca.svg", class:"icones", :width => 100, :height => 300)%>
+				<%= image_tag("troque.svg", class:"icones", :width => 100, :height => 300)%>
+				<h1 class="icones-conteudo-1">Modo offline.</h1>
+				<h4 class="icones-conteudo-1-baixo">Ouça música onde estiver.</h4>
+				<h1 class="icones-conteudo-2">Sem anúncios.</h1>
+				<h4 class="icones-conteudo-2-baixo">Curta música, sem parar.</h4>
+				<h1 class="icones-conteudo-3"> Ouça o que quiser.</h1>
+				<h4 class="icones-conteudo-3-baixo"> Mesmo no celular ou tablet.</h4>
+				<h1 class="icones-conteudo-4">Troque de música o quanto <br>quiser.</h1>
+				<h4 class="icones-conteudo-4-baixo">Pule quando quiser.</h4>
+			</div>
+		</section>
+		
+		<section>
+			<div class="escolha">
+				<h2 class="escolha-1">Escolha seu plano Premium</h2><br>
+				<h3 class="escolha-2">Ouça sem limites no seu celular, alto-falante e em outros dispositivos.</h3>
+				<div class="retangulo-premium">
+					<h1 class="card">Individual</h1>
+					<p class="info">R$ 19,90/mês após o período da oferta</p>
+					<p class="info">1 conta</p><br>	
+						<div class="fonte-premium">
+						<ul>	
+							✔ Curta música sem anúncios<br>	
+					 		✔	Ouça em qualquer lugar — até no modo offline<br> 
+					 		✔	Escolha a música que quer ouvir<br>
+					 		✔	Faça um plano pré-pago ou uma assinatura<br>	
+						</ul> 
+						</div>
+						<div class="retangulo-premium-2">
+							<h1 class="card-2">Família</h1>
+							<p class="info-2">R$ 34,90/mês após o período da oferta</p>
+							<p class="info-2">Até 6 contas</p><br>
+								<div class="fonte-premium-2">
+									<ul>
+										✔ 6 contas Premium para familiares que moram no mesmo endereço<br>
+										✔ Family Mix: uma playlist pra família, atualizada regularmente com músicas que todo mundo gosta<br>
+										✔ Bloqueie músicas com conteúdo explícito<br>
+										✔ Ouça sem anúncios, no modo offline e sob demanda<br>
+										✔ Spotify Kids: um aplicativo separado, feito especialmente para crianças<br>
+										✔ Faça um plano pré-pago ou uma assinatura<br>
+									</ul>
+								</div>
+						</div>
+				</div>		
+			</div>
+		</section>
+	</main>	
+	<section class="conteudo-secundario">
+			<div class="conteudo-secundario-titulo">
+				<table class="conteudo-secundario-tabela" width="700px" border=0>
+					<tr class="conteudo-secundario-item">
+						<%= link_to image_tag("Musicout-5.png", class:"cabecalho-logo", :alt => "logo", :width => 100, :height => 100), "http://localhost:3000/musicsout", target: :_blank %>
+						<td class="conteudo-secundario-item"><strong>EMPRESA</strong></td>
+						<td class="conteudo-secundario-item"><strong>COMUNIDADES</strong></td>
+						<td class="conteudo-secundario-item"><strong>LINKS ÚTEIS</strong></td>
+					</tr>
+					<tr class="conteudo-secundario-tabela">
+						<td class="conteudo-secundario-tabela-item"><a>Sobre</a></td>
+						<td class="conteudo-secundario-tabela-item"><a>Para Artistas</a></td>
+						<td class="conteudo-secundario-tabela-item"><a>Suporte</a></td>
+					</tr>
+
+					<tr class="conteudo-secundario-tabela">
+						<td class="conteudo-secundario-tabela-item"><a>Empregos</a></td>
+						<td class="conteudo-secundario-tabela-item"><a>Desenvolvedores</a></td>
+						<td class="conteudo-secundario-tabela-item"><a>Player da Web</a></td>
+					</tr>
+
+					<tr class="conteudo-secundario-tabela">
+						<td class="conteudo-secundario-tabela-item"><a>For the Record</a></td>
+						<td class="conteudo-secundario-tabela-item"><a>Publicidade</a></td>
+						<td class="conteudo-secundario-tabela-item"><a>Aplicativo móvel grátis</a></td>
+					</tr>
+
+					<tr class="conteudo-secundario-tabela">
+						<td></td>
+						<td class="conteudo-secundario-tabela-item"><a>Investidores</a></td>
+						<td></td>
+					</tr>
+
+					<tr class="conteudo-secundario-tabela">
+						<td></td>
+						<td class="conteudo-secundario-tabela-item"><a>Fornecedores</a></td>
+						<td></td>
+					</tr>
+				</table>	
+		</section>
+	</main>
+	<footer class="rodape">
+		<div class="baixo">
+			<%= link_to image_tag("facebook-1.svg", class:"rodape-baixo", :width => 30, :height => 30), "https://www.facebook.com", target: :_blank %>	
+			<%= link_to image_tag("twitter-1.svg", class:"rodape-baixo", :width => 30, :height =>30), "https://twitter.com", target: :_blank %>
+			<%= link_to image_tag("instagram-1.svg", class:"rodape-baixo", :width => 30, :height => 32), "https://www.instagram.com", target: :__blank %>
+		</div>
+			<p class="rod">© 2022 Musicout<br>
+			Musicout of Brazil Inc. | A sede está localizada em Fortaleza, Ceará (BR)</p> 
+  </footer>
+</body>
+</html>
+
+
+	

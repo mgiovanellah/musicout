@@ -1,0 +1,213 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body {
+	
+	background-image: url("bola.png");
+	background-size: 1500px 1500px;
+	background-repeat: no-repeat;
+	background-color: rgb(15, 9, 70);
+}
+
+nav {
+  background:#000000;
+  width:100%;
+  height:100px;
+ }
+ nav ul li {
+  display:inline-block;
+ }
+ nav ul li a {
+  display:block;
+  padding:38px 15px;
+  transition: all 0.6s ease;
+ }
+ nav ul li a:hover {
+  background:#ec42ab;
+ }
+
+.cabecalho {
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	padding: 24x;
+}
+
+
+.cabecalho-logo {
+	height: 100px;
+	margin-right: 525px;
+	margin-left: 120px;
+}
+
+.cabecalho-menu-item {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color:rgb(27, 192, 221);
+}
+
+.conteudo {
+	margin-bottom: 48px;
+	border-top: 0.4px solid black;
+}
+
+.conteudo-principal {
+	text-align: center;
+	align-items: center;
+	margin: 200px;
+}
+
+.conteudo-principal-escrito-titulo {
+	font-size: 150px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	color: rgb(27, 192, 221);
+}
+
+.conteudo-principal-escrito-subtitulo {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	color: rgb(27, 192, 221);
+	font-size: 18px;
+	margin: 40px;
+}
+
+.conteudo-principal-escrito {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.conteudo-principal-escrito-botao {
+	background-color: rgb(27, 192, 221);
+	width: 250px;
+	height: 50px;
+	border: none;
+	box-shadow: 4px 5px 4px;
+	border-radius: 20px;
+	margin: 20px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 15px;
+	color:rgb(40, 27, 221)
+}
+
+.conteudo-secundario-titulo {
+	border-top: 0.4px solid black;
+}
+
+.conteudo-secundario-tabela {
+	margin-left: 300px;
+}
+
+.conteudo-secundario {
+	color:rgb(27, 192, 221);	
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 15px;
+	width:4000px;
+	height:500px;
+	background-color:black;
+	margin-left: auto;
+}
+
+.conteudo-secundario-item {
+	color: white;
+}
+
+
+.rodape {
+	margin: 75px;
+	color: rgb(27, 192, 221);
+	background-color: white;
+	width: 1350px;
+	height: 100px;
+
+}
+
+.rodape-imagem {
+	height: 100px;
+	width: 100px;
+	margin-left: 100px;	
+}
+
+.tabela-rodape-conteudo {
+	background-color:black;
+	margin-left: auto;
+	width:4000px;
+}
+
+.rodape {
+	text-align: center; 
+	margin-left: auto; 
+	margin-right: auto;	
+	background-color: rgb(15, 9, 70);
+}
+
+.baixo {
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	padding: 40px 0;
+	top: 60px;
+}
+
+.baixo {
+	width:100px;
+	height:100px;
+	position: relative;
+	left: 5px; 0%; 
+	top: 40px;
+	display:inline;
+  margin-right: 5px;		
+}	
+
+.rod {
+	padding: 50px;
+	background-color: rgb(15, 9, 70);	
+}
+
+.rodape-baixo:hover { 
+	background-color: rgb(27, 192, 221);
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  position: relative;
+}
+
+.rodape-baixo img {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+button:hover {
+	transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+
+.conteudo-secundario-tabela-item:hover {
+	background-color: rgb(73, 14, 168);
+}
