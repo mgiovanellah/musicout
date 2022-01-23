@@ -15,7 +15,7 @@
 	🚧  Musicout 🚀 under construction...  🚧
 </h4>
 
-<h1>Features</h1>
+
 ### Features
 
 - [x] Index page 
