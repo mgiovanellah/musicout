@@ -4,11 +4,14 @@
 <h1 align="center">Musicout</h1
 <p align="center">Musicout is a music site from Brazil. Updated daily, it is one of the main resources for artist information and song lyrics that gives customers the opportunity to listen to their favorite artists wherever they are..</p>
 <p align="center">
- <a href="#objetivo">Objetivo</a> •
+ <a href="#objetivo">Objective</a> •
  <a href="#roadmap">Roadmap</a> • 
- <a href="#tecnologias">Tecnologias</a> • 
- <a href="#contribuicao">Contribuição</a> • 
- <a href="#licenc-a">Licença</a> • 
- <a href="#autor">Autor</a>
+ <a href="#tecnologias">Technologies</a> • 
+ <a href="#contribuicao">Contribution</a> • 
+ <a href="#licenc-a">License</a> • 
+ <a href="#autor">Author</a>
 </p>
+<h4 align="center"> 
+	🚧  Musicout 🚀 under construction...  🚧
+</h4>
 
